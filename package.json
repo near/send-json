@@ -19,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/nearprotocol/send-json/issues"
   },
-  "homepage": "https://github.com/nearprotocol/send-json#readme"
+  "homepage": "https://github.com/nearprotocol/send-json#readme",
+  "dependencies": {
+    "http-errors": "^1.7.2",
+    "node-fetch": "^2.4.1"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4",
+    "mock-http-server": "^1.2.0"
+  }
 }
