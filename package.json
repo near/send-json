@@ -1,5 +1,5 @@
 {
-  "name": "send-json",
+  "name": "fetch-send-json",
   "version": "0.0.1",
   "description": "Minimal Fetch API wrapper compatible with Node.js and browser",
   "main": "index.js",
