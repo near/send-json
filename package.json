@@ -4,7 +4,9 @@
   "description": "Minimal Fetch API wrapper compatible with Node.js and browser",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "lint": "eslint .",
+    "fix": "eslint . --fix"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,7 @@
   },
   "homepage": "https://github.com/nearprotocol/send-json#readme",
   "dependencies": {
+    "eslint": "^5.16.0",
     "http-errors": "^1.7.2",
     "node-fetch": "^2.4.1"
   },
